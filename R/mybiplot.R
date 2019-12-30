@@ -11,8 +11,8 @@
 #'
 #' @examples
 #' x=1:30, y= x^2, mybiplot(x,y)
-mybiplot = function(x,y){
+mybiplot = function(x,y, col){
   layout(matrix(1:2,nr=1,nc=2))
-  hist(y)
+  hist(y, col=col)
   plot(y~x)
 }
