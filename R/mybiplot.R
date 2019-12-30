@@ -13,6 +13,6 @@
 #' x=1:30, y= x^2, mybiplot(x,y, col = "red")
 mybiplot = function(x,y, col){
   layout(matrix(1:2,nr=1,nc=2))
-  hist(y, col=col) # hist colorec
+  hist(y, col=col) # hist colored
   plot(y~x)
 }
