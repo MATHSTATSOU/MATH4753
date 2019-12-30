@@ -4,7 +4,7 @@
 \alias{mybiplot}
 \title{A Bi-Plot}
 \usage{
-mybiplot(x, y)
+mybiplot(x, y, col)
 }
 \arguments{
 \item{x}{A vector}
