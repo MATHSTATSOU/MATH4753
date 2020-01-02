@@ -6,7 +6,7 @@
 #' @param x A vector
 #' @param y A vector
 #'
-#' @return plots
+#' @return plots a histogram and a scatterplot
 #' @export
 #'
 #' @examples

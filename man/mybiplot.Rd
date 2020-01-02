@@ -12,7 +12,7 @@ mybiplot(x, y, col)
 \item{y}{A vector}
 }
 \value{
-plots
+plots a histogram and a scatterplot
 }
 \description{
 A simple plotting function
@@ -21,5 +21,5 @@ A simple plotting function
 This plot will take in two vectors and plot them
 }
 \examples{
-x=1:30, y= x^2, mybiplot(x,y)
+x=1:30, y= x^2, mybiplot(x,y, col = "red")
 }
